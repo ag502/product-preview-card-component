@@ -6,4 +6,4 @@
 
 # Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [product-preview-card-component](https://product-preview-card-component-five-theta.vercel.app/)
