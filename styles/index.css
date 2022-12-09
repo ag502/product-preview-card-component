@@ -24,14 +24,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100%;
+  padding: 0 16px;
 }
 
 .preview {
   display: flex;
   height: 450px;
-  width: 600px;
+  max-width: calc(600px + 16px + 16px);
   background-color: var(--white);
   border-radius: 10px;
   overflow: hidden;
@@ -127,4 +127,31 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .preview {
+    flex-direction: column;
+    height: 611px;
+  }
+
+  .preview-content {
+    padding: 24px;
+  }
+
+  .preview-category {
+    margin-bottom: 12px;
+  }
+
+  .preview-product-name {
+    margin-bottom: 16px;
+  }
+
+  .preview-product-description {
+    margin-bottom: 24px;
+  }
+
+  .price {
+    margin-bottom: 20px;
+  }
 }
