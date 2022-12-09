@@ -31,7 +31,7 @@ body {
 .preview {
   display: flex;
   height: 450px;
-  max-width: calc(600px + 16px + 16px);
+  width: 600px;
   background-color: var(--white);
   border-radius: 10px;
   overflow: hidden;
